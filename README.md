@@ -1,9 +1,39 @@
-## Structure
+# Gestion et usage des données de recherche: le cas du projet GreenEdge
 
-1 - Intro et Cadre du projet
-2 - Le type de donnÃ©es concernÃ©es
-3 - Les enjeux rencontrÃ©s et la stratÃ©gie adoptÃ©e pour adresser ceux-ci
-4 - Les leÃ§ons apprises
-5 - Ouverture vers le futur: quelles devraient Ãªtre nos prioritÃ©s sur la conservation des donnÃ©es
+Présentation pour la 3e Journée des professionnels et professionnelles de recherche (PPRs) affiliés à l'Université Laval
 
-Peut-Ãªtre prÃ©voir une rencontre avec les autres prÃ©sentateurs pour s'assurer que les sujets ne se recoupent pas trop et avoir une cohÃ©rence dans les prÃ©sentations.
+**Auteur:** Philippe Massicotte
+
+**Date:** 27 novembre 2025
+
+**Institution:** Université Laval
+
+## À propos
+
+Cette présentation explore la gestion et l'utilisation des données de recherche dans le cadre du projet GreenEdge, qui étudie la dynamique de la floraison printanière du phytoplancton dans l'océan Arctique.
+
+## Le projet GreenEdge
+
+- 80+ scientifiques
+- 7 work packages
+- 23+ institutions dans 3 pays (Canada, France, Groenland)
+- 2 camps de glace (2015-2016) et 1 mission océanographique sur le brise-glace Amundsen (2016)
+
+## Contenu de la présentation
+
+- Introduction et cadre du projet
+- Les enjeux rencontrés (transdisciplinarité, multiplicité des données)
+- Dissémination des données via data papers
+- Leçons apprises en gestion de données
+- Ouvertures vers le futur
+
+## Accès
+
+La présentation est accessible en ligne : https://pmassicotte.github.io/journee_ppr_ulaval_2025
+
+## Références
+
+- [Bruyant et al. (2022), "The Green Edge Cruise."](https://essd.copernicus.org/articles/14/4607/2022/)
+- [Massicotte et al. (2020), "Green Edge Ice Camp Campaigns"](https://essd.copernicus.org/articles/12/151/2020/)
+- [The Arctic Bloom (video)](https://www.parafilms.com/portfolio/arctic-bloom/)
+
