@@ -1,0 +1,148 @@
+---
+title: "Gestion et usage des données de recherche: le cas du projet GreenEdge"
+subtitle: "3e Journée des professionnels et professionnelles de recherche (PPRs) affiliés à l’Université Laval"
+author: "Philippe Massicotte"
+institute: "Université Laval"
+date: "2025-11-27"
+lang: fr
+date-format: long
+title-slide-attributes:
+  data-background-size: 100% 100%
+  data-background-position: 100% 100%
+format:
+  revealjs:
+    theme:
+      - custom.scss
+    fig-dpi: 300
+    footer: "[{{< fa house >}} https://pmassicotte.github.io/journee_ppr_ulaval_2025](https://pmassicotte.github.io/journee_ppr_ulaval_2025)"
+    height: 1080
+    width: 1920
+    slide-number: c/t
+    transition: fade
+    background-transition: fade
+    slide-level: 1
+    incremental: false
+    embed-resources: false
+
+execute:
+  echo: false
+
+citation:
+  url: https://pmassicotte.github.io/journee_ppr_ulaval_2025
+---
+
+# Intro et cadre du projet
+
+[The dynamics of the phytoplankton spring bloom in the Arctic Ocean]{.underline}
+
+::: {style="text-align: center;"}
+![Credit: Noé Sardet, Parafilms/Green Edge](http://www.greenedgeproject.info/images/amundsennoe2.jpg){width=50%}
+
+[{{< fa video >}}]{style="color: #183153;"} [The Arctic Bloom](https://www.parafilms.com/portfolio/arctic-bloom/)
+
+:::
+
+[[The Arctic Bloom](https://www.parafilms.com/portfolio/arctic-bloom/)]{.text-center}
+
+# Le projet GreenEdge en chiffres
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- 80+ scientifiques
+- 7 work packages
+- 23+ institutions dans 3 pays (Canada, France, Groenland)
+- 2 camps de glace (2015-2016) et 1 mission océanographique sur le brise-glace Amundsen (2016)
+
+:::
+
+::: {.column width="50%" style="text-align: center;"}
+![Credit: Noé Sardet, Parafilms/Green Edge](http://www.greenedgeproject.info/images/margot/margot-amundsen.png){width=60%}
+:::
+
+::::
+
+# Les enjeux rencontrés
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+[Transdisciplinarité]{.underline}
+
+- Biologie
+- Physique
+- Chimie
+- Modélisation
+
+:::
+
+::: {.column width="60%"}
+
+[Multiplicité]{.underline}
+
+- Types de données (images, vidéos, données in situ, données satellitaires, etc.)
+- Formats de données (CSV, Excel, NetCDF, etc.)
+- Outils de collecte et de traitement (capteurs, logiciels d'analyse, etc.)
+
+:::
+
+::::
+
+# Dissimination des données
+
+[Rédaction de deux data papers]{.underline}
+
+- Description détaillée des jeux de données
+- Méthodologies de collecte et de traitement
+- [Bruyant et al. (2022), "The Green Edge Cruise."](https://essd.copernicus.org/articles/14/4607/2022/)
+- [Massicotte et al. (2020), "Green Edge Ice Camp Campaigns: Understanding the Processes Controlling the under-Ice Arctic Phytoplankton Spring Bloom."](https://essd.copernicus.org/articles/12/151/2020/)
+
+---
+
+::: {style="text-align: center;"}
+![](images/data_paper_greenedge.png){width=75%}
+:::
+
+# Les leçons apprises (1/3)
+
+[Planification et documentation]{.underline}
+
+- Élaboration du [Plan de gestion des données](https://www.alliancecan.ca/fr/nos-services/gestion-des-donnees-de-recherche) **dès le début du projet**
+  - [Se familiariser avec l'assistant PGD](https://www.youtube.com/watch?v=zjGlf8zLY-s)
+- Documentation systématique des métadonnées
+  - Ex.: Unités des variables mesurées, mg/L vs μg/L
+- Formats de données standardisés
+  - Ex.: Formats de fichiers (Excel, CSV)
+
+# Les leçons apprises (2/3)
+
+[Collaboration et développement des compétences]{.underline}
+
+- Favoriser l'innovation et le partage d'expertise
+  - Ex: Ateliers réguliers entre biologistes, océanographes, modélisateurs
+- Développement des compétences en gestion de données
+  - Ateliers, webinaires pour les chercheurs, PPRs, étudiants
+- Formations aux outils de préservation numérique
+  - [GitHub](https://github.com/), [Zenodo](https://zenodo.org/), [Borealis](https://borealisdata.ca/dataverse/laval)
+
+# Les leçons apprises (3/3)
+
+[Infrastructure et bonnes pratiques]{.underline}
+
+- Centralisation des données
+  - [{{< fa check >}}]{style="color: #34A74BFF;"} Utilisation de plateformes collaboratives pour les données actives
+  - [{{< fa times >}}]{style="color: #E6352FFF;"} Ne pas user les courriels pour le partage de données
+- [Importance des sauvegardes](https://pmassicotte.github.io/journee_ppr_ulaval_2024/#/backups)
+- Intégration des nouvelles technologies et meilleures pratiques
+  - Cloud computing, IA, etc.
+
+# Ouvertures vers le futur
+
+- Développement de politiques claires sur la gestion des données
+- Investissement dans les infrastructures de stockage et calcul
+- Formation continue des équipes de recherche
+- Adoption de standards communs (métadonnées, formats)
+- Promotion de la culture de partage ouvert des données
+- Collaboration inter-institutionnelle pour mutualiser les ressources

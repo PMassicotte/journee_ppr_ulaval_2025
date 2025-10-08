@@ -1,0 +1,463 @@
+/*-- scss:defaults --*/
+
+// Color palette
+$primary-color: #2563eb;
+$secondary-color: #7c3aed;
+$accent-color: #06b6d4;
+$text-color: #1e293b;
+$text-light: #6b7280;
+$bg-color: #f8fafc;
+$bg-secondary: #ffffff;
+$border-color: #e5e7eb;
+$code-bg: #ffffff;
+
+// Gradient colors
+$gradient-start: #3b82f6;
+$gradient-mid: #06b6d4;
+$gradient-end: #22c55e;
+
+// Shadow variables
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+$shadow-glow: 0 0 20px rgba(37, 99, 235, 0.15);
+
+// Spacing scale
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-2xl: 5rem;
+
+// Border radius
+$radius-sm: 0.25rem;
+$radius: 0.5rem;
+$radius-lg: 1rem;
+
+// Typography
+$font-family-base:
+  "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-monospace: "Fira Code", "JetBrains Mono", "Courier New", monospace;
+$base-text-size: 2em;
+
+// Transitions
+$transition-fast: 0.15s ease;
+$transition-base: 0.2s ease;
+$transition-slow: 0.3s ease;
+
+/*-- scss:rules --*/
+
+// Mixins
+@mixin gradient-text {
+  background: linear-gradient(
+    120deg,
+    $gradient-start 0%,
+    $gradient-mid 50%,
+    $gradient-end 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@mixin gradient-bg {
+  background: linear-gradient(135deg, $primary-color, $secondary-color);
+}
+
+@mixin hover-lift {
+  transition: all $transition-slow;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: $shadow-lg;
+  }
+}
+
+@mixin focus-visible {
+  &:focus-visible {
+    outline: 3px solid $primary-color;
+    outline-offset: 2px;
+  }
+}
+
+// Typography
+body {
+  font-family: $font-family-base;
+  color: $text-color;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: $text-color;
+}
+
+.reveal {
+  font-size: 1.8em;
+
+  p {
+    font-size: $base-text-size;
+    line-height: 1.2;
+    margin-bottom: 1em;
+    color: $text-color;
+  }
+
+  h1 {
+    font-size: 3.5em;
+    background: linear-gradient(
+      90deg,
+      $gradient-start 0%,
+      $gradient-mid 50%,
+      $gradient-end 100%
+    );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: fit-content;
+    margin-bottom: $spacing-2xl;
+    font-weight: 800;
+  }
+
+  h2 {
+    font-size: 4rem;
+    font-weight: 300;
+    border-bottom: 2px solid $border-color;
+    padding-bottom: 0.5rem;
+    color: $primary-color;
+    font-style: italic;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    color: $secondary-color;
+  }
+
+  // Links
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    transition: all $transition-base;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      border-bottom-color: $primary-color;
+      color: $secondary-color;
+    }
+
+    @include focus-visible;
+  }
+
+  // Code blocks
+  code {
+    background: $code-bg;
+    padding: $spacing-xs $spacing-sm;
+    border-radius: $radius-sm;
+    font-size: 0.9em;
+    font-family: $font-family-monospace;
+    color: $secondary-color;
+    border: 1px solid $border-color;
+  }
+
+  pre {
+    background: $code-bg;
+    padding: $spacing-lg;
+    border-radius: $radius;
+    box-shadow: $shadow-sm;
+    border-left: 4px solid $primary-color;
+    border: 1px solid $border-color;
+
+    code {
+      background: transparent;
+      padding: 0;
+      color: $text-color;
+      border: none;
+    }
+  }
+
+  // Blockquotes
+  blockquote {
+    border-left: 4px solid $accent-color;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    background: $bg-secondary;
+    border-radius: 0 $radius $radius 0;
+    font-style: italic;
+    color: $text-light;
+  }
+
+  // Tables
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    box-shadow: $shadow-md;
+    border-radius: $radius;
+    overflow: hidden;
+
+    thead {
+      background: linear-gradient(135deg, $primary-color, $secondary-color);
+      color: white;
+
+      th {
+        padding: 1rem;
+        text-align: left;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        letter-spacing: 0.05em;
+      }
+    }
+
+    tbody {
+      td {
+        padding: 1rem;
+        border-bottom: 1px solid $border-color;
+      }
+
+      tr:hover {
+        background: $bg-secondary;
+        transition: background 0.2s ease;
+      }
+    }
+  }
+
+  // Lists
+  ul,
+  ol {
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+    font-size: $base-text-size;
+    line-height: 1.6;
+    color: $text-color;
+
+    li {
+      margin: 0.5rem 0;
+
+      a {
+        font-size: inherit;
+      }
+    }
+
+    // Nested lists
+    ul,
+    ol {
+      font-size: 1em;
+      margin: 0.25rem 0;
+    }
+  }
+
+  // Images
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: $radius;
+    box-shadow: $shadow-md;
+    margin: 1.5rem 0;
+  }
+
+  // Callouts/Admonitions
+  .callout {
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: $radius;
+    border-left: 4px solid;
+    box-shadow: $shadow-sm;
+
+    &.callout-note {
+      background: #eff6ff;
+      border-left-color: $primary-color;
+    }
+
+    &.callout-warning {
+      background: #fef3c7;
+      border-left-color: #f59e0b;
+    }
+
+    &.callout-important {
+      background: #fee2e2;
+      border-left-color: #ef4444;
+    }
+
+    &.callout-tip {
+      background: #d1fae5;
+      border-left-color: #10b981;
+    }
+  }
+
+  // Slide backgrounds
+  .slide-background {
+    background: $bg-color;
+  }
+
+  // Title slide
+  .title-slide {
+    h1.title {
+      font-size: 4.5em;
+      @include gradient-text;
+      margin-bottom: $spacing-md;
+    }
+
+    p.subtitle {
+      font-size: 1.5em;
+      color: $text-light;
+      font-weight: 400;
+      margin-bottom: $spacing-xl;
+    }
+
+    p.author,
+    p.institute,
+    p.date {
+      color: $text-light;
+      font-size: 1em;
+    }
+  }
+
+  // Footer styling
+  .footer {
+    color: $text-color;
+    font-size: 0.7em;
+
+    a {
+      color: $text-color;
+      font-size: 0.8em;
+      border-bottom: none;
+      transition: color $transition-base;
+
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+
+  // Slide numbers
+  .slide-number {
+    color: $text-light;
+    background: transparent;
+    font-size: 0.8em;
+  }
+
+  // Buttons/Interactive elements
+  button,
+  .btn {
+    @include gradient-bg;
+    color: white;
+    padding: $spacing-sm $spacing-lg;
+    border: none;
+    border-radius: $radius;
+    font-weight: 600;
+    cursor: pointer;
+    @include hover-lift;
+    @include focus-visible;
+  }
+
+  // Progress bar
+  .progress {
+    background: $border-color;
+    height: 3px;
+
+    span {
+      @include gradient-bg;
+    }
+  }
+
+  // Quarto title block
+  .quarto-title-block {
+    .quarto-title-authors {
+      .quarto-title-author {
+        .quarto-title-affiliation {
+          font-size: 1.5em;
+          margin-top: 0;
+          margin-bottom: $spacing-sm;
+        }
+
+        .quarto-title-author-name {
+          margin-bottom: $spacing-xs;
+          font-size: 2em;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+// Selection
+::selection {
+  background: $primary-color;
+  color: white;
+}
+
+// Smooth scrolling
+html {
+  scroll-behavior: smooth;
+}
+
+// Utility classes
+.text-gradient {
+  @include gradient-text;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.bg-gradient {
+  @include gradient-bg;
+}
+
+.shadow-glow {
+  box-shadow: $shadow-glow;
+}
+
+// Slide transitions
+.reveal .slides section {
+  transition: transform $transition-slow;
+}
+
+// Accessibility improvements
+*:focus {
+  outline: none;
+}
+
+*:focus-visible {
+  outline: 3px solid $primary-color;
+  outline-offset: 2px;
+  border-radius: $radius-sm;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.reveal .underline,
+.reveal u {
+  text-decoration: none;
+  background: linear-gradient(135deg, $primary-color, $secondary-color);
+  color: white !important;
+  padding: 0.15em 0.5em !important;
+  border-radius: $radius !important;
+  display: inline-block !important;
+  font-weight: 700 !important;
+  font-size: 0.85em !important;
+  letter-spacing: 0.05em !important;
+  box-shadow: $shadow-md;
+  text-transform: uppercase !important;
+}

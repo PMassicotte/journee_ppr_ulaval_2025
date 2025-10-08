@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: _site
+
+format:
+  html:
+    theme: none
+    css: custom.css
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: true
+    code-fold: false
+    code-tools: true
+    code-copy: true
+    link-external-newwindow: true
+    smooth-scroll: true
+    html-math-method: katex
+    highlight-style: github
+
+execute:
+  echo: true
+  warning: false
+  message: false
