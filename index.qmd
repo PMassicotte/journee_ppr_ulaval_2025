@@ -36,7 +36,7 @@ citation:
 [The dynamics of the phytoplankton spring bloom in the Arctic Ocean]{.underline}
 
 ::: {style="text-align: center;"}
-![Credit: Noé Sardet, Parafilms/Green Edge](https://www.greenedgeproject.info/images/amundsennoe2.jpg){width=50%}
+![Credit: Noé Sardet, Parafilms/Green Edge](images/amundsennoe2.jpg){width=50%}
 
 [{{< fa video >}}]{style="color: #183153;"} [The Arctic Bloom](https://www.parafilms.com/portfolio/arctic-bloom/)
 
@@ -58,7 +58,7 @@ citation:
 :::
 
 ::: {.column width="50%" style="text-align: center;"}
-![Credit: Noé Sardet, Parafilms/Green Edge](https://www.greenedgeproject.info/images/margot/margot-amundsen.png){width=60%}
+![Credit: Noé Sardet, Parafilms/Green Edge](images/margot-amundsen.png){width=60%}
 :::
 
 ::::
