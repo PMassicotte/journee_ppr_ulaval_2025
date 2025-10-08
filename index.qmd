@@ -42,8 +42,6 @@ citation:
 
 :::
 
-[[The Arctic Bloom](https://www.parafilms.com/portfolio/arctic-bloom/)]{.text-center}
-
 # Le projet GreenEdge en chiffres
 
 :::: {.columns}
