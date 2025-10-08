@@ -1,5 +1,8 @@
 # Gestion et usage des données de recherche: le cas du projet GreenEdge
 
+[![pages-build-deployment](https://github.com/PMassicotte/journee_ppr_ulaval_2025/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/PMassicotte/journee_ppr_ulaval_2025/actions/workflows/pages/pages-build-deployment)
+[![Quarto Publish](https://github.com/PMassicotte/journee_ppr_ulaval_2025/actions/workflows/quarto.yml/badge.svg)](https://github.com/PMassicotte/journee_ppr_ulaval_2025/actions/workflows/quarto.yml)
+
 Présentation pour la 3e Journée des professionnels et professionnelles de recherche (PPRs) affiliés à l'Université Laval
 
 **Auteur:** Philippe Massicotte
