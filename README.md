@@ -36,7 +36,6 @@ La présentation est accessible en ligne : https://pmassicotte.github.io/journee_
 
 ## Références
 
-- [Bruyant et al. (2022), "The Green Edge Cruise."](https://essd.copernicus.org/articles/14/4607/2022/)
-- [Massicotte et al. (2020), "Green Edge Ice Camp Campaigns"](https://essd.copernicus.org/articles/12/151/2020/)
+- [Bruyant et al. (2022), "The Green Edge cruise: Investigating the marginal ice zone processes during late spring and early summer to understand the fate of the Arctic phytoplankton bloom."](https://essd.copernicus.org/articles/14/4607/2022/)
+- [Massicotte et al. (2020), "Green Edge Ice Camp Campaigns: Understanding the Processes Controlling the under-Ice Arctic Phytoplankton Spring Bloom."](https://essd.copernicus.org/articles/12/151/2020/)
 - [The Arctic Bloom (video)](https://www.parafilms.com/portfolio/arctic-bloom/)
-
