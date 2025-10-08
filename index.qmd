@@ -36,7 +36,7 @@ citation:
 [The dynamics of the phytoplankton spring bloom in the Arctic Ocean]{.underline}
 
 ::: {style="text-align: center;"}
-![Credit: Noé Sardet, Parafilms/Green Edge](http://www.greenedgeproject.info/images/amundsennoe2.jpg){width=50%}
+![Credit: Noé Sardet, Parafilms/Green Edge](https://www.greenedgeproject.info/images/amundsennoe2.jpg){width=50%}
 
 [{{< fa video >}}]{style="color: #183153;"} [The Arctic Bloom](https://www.parafilms.com/portfolio/arctic-bloom/)
 
@@ -58,7 +58,7 @@ citation:
 :::
 
 ::: {.column width="50%" style="text-align: center;"}
-![Credit: Noé Sardet, Parafilms/Green Edge](http://www.greenedgeproject.info/images/margot/margot-amundsen.png){width=60%}
+![Credit: Noé Sardet, Parafilms/Green Edge](https://www.greenedgeproject.info/images/margot/margot-amundsen.png){width=60%}
 :::
 
 ::::
@@ -96,7 +96,7 @@ citation:
 
 - Description détaillée des jeux de données
 - Méthodologies de collecte et de traitement
-- [Bruyant et al. (2022), "The Green Edge Cruise."](https://essd.copernicus.org/articles/14/4607/2022/)
+- [Bruyant et al. (2022), "The Green Edge cruise: Investigating the marginal ice zone processes during late spring and early summer to understand the fate of the Arctic phytoplankton bloom."](https://essd.copernicus.org/articles/14/4607/2022/)
 - [Massicotte et al. (2020), "Green Edge Ice Camp Campaigns: Understanding the Processes Controlling the under-Ice Arctic Phytoplankton Spring Bloom."](https://essd.copernicus.org/articles/12/151/2020/)
 
 ---
