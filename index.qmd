@@ -90,12 +90,14 @@ citation:
 
 # Dissimination des données
 
-[Rédaction de deux data papers]{.underline}
+[Rédaction de deux data papers: Pourquoi?]{.underline}
 
-- Description détaillée des jeux de données
-- Méthodologies de collecte et de traitement
-- [Bruyant et al. (2022), "The Green Edge cruise: Investigating the marginal ice zone processes during late spring and early summer to understand the fate of the Arctic phytoplankton bloom."](https://essd.copernicus.org/articles/14/4607/2022/)
-- [Massicotte et al. (2020), "Green Edge Ice Camp Campaigns: Understanding the Processes Controlling the under-Ice Arctic Phytoplankton Spring Bloom."](https://essd.copernicus.org/articles/12/151/2020/)
+1. Description détaillée des jeux de données
+2. Méthodologies de collecte et de traitement
+3. Unification des formats et métadonnées
+4. Facilitation de l'accès et de la réutilisation des données par la communauté scientifique
+
+# {background-image="images/bad_excel.png"}
 
 ---
 
@@ -121,7 +123,7 @@ citation:
 - Favoriser l'innovation et le partage d'expertise
   - Ex: Ateliers réguliers entre biologistes, océanographes, modélisateurs
 - Développement des compétences en gestion de données
-  - Ateliers, webinaires pour les chercheurs, PPRs, étudiants
+  - Ateliers, webinaires pour les chercheurs, **PPRs**, étudiants
 - Formations aux outils de préservation numérique
   - [GitHub](https://github.com/), [Zenodo](https://zenodo.org/), [Borealis](https://borealisdata.ca/dataverse/laval)
 
