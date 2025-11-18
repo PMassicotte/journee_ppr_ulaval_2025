@@ -88,6 +88,8 @@ citation:
 
 ::::
 
+# {background-image="images/bad_excel.png"}
+
 # Dissimination des données
 
 [Rédaction de deux data papers: Pourquoi?]{.underline}
@@ -103,9 +105,7 @@ citation:
 ![](images/data_paper_greenedge.png){width=75%}
 :::
 
-# {background-image="images/bad_excel.png"}
-
-# Les leçons apprises (1/3)
+# Les leçons apprises
 
 [Planification et documentation]{.underline}
 
@@ -116,33 +116,32 @@ citation:
 - Formats de données standardisés
   - Ex.: Formats de fichiers (Excel, CSV)
 
-# Les leçons apprises (2/3)
+# Ouvertures vers le futur (1/3)
 
 [Collaboration et développement des compétences]{.underline}
 
 - Favoriser l'innovation et le partage d'expertise
   - Ex: Ateliers réguliers entre biologistes, océanographes, modélisateurs
-- Développement des compétences en gestion de données
-  - Ateliers, webinaires pour les chercheurs, **PPRs**, étudiants
+- Développement des compétences: Gestion de données, Cloud computing, AI
+- Ateliers, webinaires pour les chercheurs, **PPRs**, étudiants
 - Formations aux outils de préservation numérique
   - [GitHub](https://github.com/), [Zenodo](https://zenodo.org/), [Borealis](https://borealisdata.ca/dataverse/laval)
 
-# Les leçons apprises (3/3)
+# Ouvertures vers le futur (2/3)
 
-[Infrastructure et bonnes pratiques]{.underline}
+[Infrastructure]{.underline}
 
 - Centralisation des données
   - [{{< fa check >}}]{style="color: #34A74BFF;"} Utilisation de plateformes collaboratives pour les données actives
-  - [{{< fa times >}}]{style="color: #E6352FFF;"} Ne pas user les courriels pour le partage de données
+  - [{{< fa times >}}]{style="color: #E6352FFF;"} Ne pas utiliser les courriels pour le partage de données
 - [Importance des sauvegardes](https://pmassicotte.github.io/journee_ppr_ulaval_2024/#/backups)
-- Intégration des nouvelles technologies et meilleures pratiques
-  - Cloud computing, IA, etc.
+- Collaboration inter-institutionnelle pour mutualiser les ressources
 
-# Ouvertures vers le futur
+# Ouvertures vers le futur (3/3)
+
+[Bonnes pratiques]{.underline}
 
 - Développement de politiques claires sur la gestion des données
 - Investissement dans les infrastructures de stockage et calcul
-- Formation continue des équipes de recherche
 - Adoption de standards communs (métadonnées, formats)
 - Promotion de la culture de partage ouvert des données
-- Collaboration inter-institutionnelle pour mutualiser les ressources
