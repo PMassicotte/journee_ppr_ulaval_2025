@@ -1,5 +1,5 @@
 ---
-title: "Gestion et usage des données de recherche: le cas du projet GreenEdge"
+title: "Gestion des données de recherche: le cas du projet GreenEdge"
 subtitle: "3e Journée des professionnels et professionnelles de recherche (PPRs) affiliés à l’Université Laval"
 author: "Philippe Massicotte"
 institute: "Université Laval"
@@ -36,13 +36,22 @@ citation:
 [The dynamics of the phytoplankton spring bloom in the Arctic Ocean]{.underline}
 
 ::: {style="text-align: center;"}
+
+![](images/fig01.png){width=80%}
+:::
+
+# Intro et cadre du projet
+
+[The dynamics of the phytoplankton spring bloom in the Arctic Ocean]{.underline}
+
+::: {style="text-align: center;"}
 ![Credit: Noé Sardet, Parafilms/Green Edge](images/amundsennoe2.jpg){width=50%}
 
 [{{< fa video >}}]{style="color: #183153;"} [The Arctic Bloom](https://www.parafilms.com/portfolio/arctic-bloom/)
 
 :::
 
-# Le projet GreenEdge en chiffres
+# Le projet GreenEdge en chiffres (1/2)
 
 :::: {.columns}
 
@@ -61,7 +70,7 @@ citation:
 
 ::::
 
-# Les enjeux rencontrés
+# Le projet GreenEdge en chiffres (2/2)
 
 :::: {.columns}
 
@@ -88,16 +97,18 @@ citation:
 
 ::::
 
-# {background-image="images/bad_excel.png"}
-
 # Dissimination des données
 
-[Rédaction de deux data papers: Pourquoi?]{.underline}
+_Un beau matin de 2018..._
+
+[Rédaction d'un data paper: Pourquoi?]{.underline}
 
 1. Description détaillée des jeux de données
 2. Méthodologies de collecte et de traitement
 3. Unification des formats et métadonnées
 4. Facilitation de l'accès et de la réutilisation des données par la communauté scientifique
+
+# {background-image="images/bad_excel.png"}
 
 ---
 
@@ -105,43 +116,44 @@ citation:
 ![](images/data_paper_greenedge.png){width=75%}
 :::
 
-# Les leçons apprises
-
-[Planification et documentation]{.underline}
-
-- Élaboration du [Plan de gestion des données](https://www.alliancecan.ca/fr/nos-services/gestion-des-donnees-de-recherche) **dès le début du projet**
-  - [Se familiariser avec l'assistant PGD](https://www.youtube.com/watch?v=zjGlf8zLY-s)
-- Documentation systématique des métadonnées
-  - Ex.: Unités des variables mesurées, mg/L vs μg/L
-- Formats de données standardisés
-  - Ex.: Formats de fichiers (Excel, CSV)
-
 # Ouvertures vers le futur (1/3)
-
-[Collaboration et développement des compétences]{.underline}
-
-- Favoriser l'innovation et le partage d'expertise
-  - Ex: Ateliers réguliers entre biologistes, océanographes, modélisateurs
-- Développement des compétences: Gestion de données, Cloud computing, AI
-- Ateliers, webinaires pour les chercheurs, **PPRs**, étudiants
-- Formations aux outils de préservation numérique
-  - [GitHub](https://github.com/), [Zenodo](https://zenodo.org/), [Borealis](https://borealisdata.ca/dataverse/laval)
-
-# Ouvertures vers le futur (2/3)
-
-[Infrastructure]{.underline}
-
-- Centralisation des données
-  - [{{< fa check >}}]{style="color: #34A74BFF;"} Utilisation de plateformes collaboratives pour les données actives
-  - [{{< fa times >}}]{style="color: #E6352FFF;"} Ne pas utiliser les courriels pour le partage de données
-- [Importance des sauvegardes](https://pmassicotte.github.io/journee_ppr_ulaval_2024/#/backups)
-- Collaboration inter-institutionnelle pour mutualiser les ressources
-
-# Ouvertures vers le futur (3/3)
 
 [Bonnes pratiques]{.underline}
 
+::: {.incremental}
+
+- Élaboration du [Plan de gestion des données](https://www.alliancecan.ca/fr/nos-services/gestion-des-donnees-de-recherche) **dès le début du projet**
+  - [Se familiariser avec l'assistant PGD](https://www.youtube.com/watch?v=zjGlf8zLY-s)
 - Développement de politiques claires sur la gestion des données
-- Investissement dans les infrastructures de stockage et calcul
 - Adoption de standards communs (métadonnées, formats)
 - Promotion de la culture de partage ouvert des données
+
+:::
+
+# Ouvertures vers le futur (2/3)
+
+[Collaboration, innovation et le partage d'expertise]{.underline}
+
+::: {.incremental}
+
+- Ateliers, webinaires pour les chercheurs, **PPRs**, étudiants
+- Développement des compétences:
+  - Gestion de données, Cloud computing, AI
+- Formations aux outils de préservation numérique
+  - [GitHub](https://github.com/), [Zenodo](https://zenodo.org/), [Borealis](https://borealisdata.ca/dataverse/laval)
+
+:::
+
+# Ouvertures vers le futur (3/3)
+
+[Infrastructure et outils]{.underline}
+
+::: {.incremental}
+
+- Centralisation des données
+  - [{{< fa times >}}]{style="color: #E6352FFF;"} Ne pas utiliser les courriels pour le partage de données!
+  - [{{< fa check >}}]{style="color: #34A74BFF;"} Utilisation de plateformes collaboratives pour les données actives
+- [Importance des sauvegardes](https://pmassicotte.github.io/journee_ppr_ulaval_2024/#/backups)
+- Collaboration inter-institutionnelle pour mutualiser les ressources
+
+:::
