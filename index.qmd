@@ -101,14 +101,40 @@ citation:
 
 _Un beau matin de 2018..._
 
-[Rédaction d'un data paper: Pourquoi?]{.underline}
+[Rédaction d'un data paper: Pourquoi pas?]{.underline}
 
 1. Description détaillée des jeux de données
 2. Méthodologies de collecte et de traitement
 3. Unification des formats et métadonnées
 4. Facilitation de l'accès et de la réutilisation des données par la communauté scientifique
 
+---
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment data-fragment-index="0"}
+![](images/ai_good_data.png){width=100%}
+:::
+
+::: {.column width="50%" .fragment data-fragment-index="1"}
+![](images/ai_bad_data.png){width=100%}
+:::
+
+::::
+
+::: {.fragment data-fragment-index="1" style="text-align: center; font-size: 0.5em;"}
+Images générées par l'IA
+:::
+
 # {background-image="images/bad_excel.png"}
+
+---
+
+# {background-image="images/matlab_code.png"}
+
+---
+
+# {background-image="images/no_metadata.png" background-size="95%"}
 
 ---
 
