@@ -148,7 +148,7 @@ Images générées par l'IA
 
 ::: {.incremental}
 
-- Élaboration du [Plan de gestion des données](https://www.alliancecan.ca/fr/nos-services/gestion-des-donnees-de-recherche) **dès le début du projet**
+- Élaboration du [Plan de gestion des données](https://www.alliancecan.ca/fr/nos-services/gestion-des-donnees-de-recherche) **AVANT le début du projet**
   - [Se familiariser avec l'assistant PGD](https://www.youtube.com/watch?v=zjGlf8zLY-s)
 - Développement de politiques claires sur la gestion des données
 - Adoption de standards communs (métadonnées, formats)
