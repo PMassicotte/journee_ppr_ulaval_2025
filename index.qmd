@@ -151,22 +151,21 @@ Images générées par l'IA
 - Élaboration du [Plan de gestion des données](https://www.alliancecan.ca/fr/nos-services/gestion-des-donnees-de-recherche) **AVANT le début du projet**
   - [Se familiariser avec l'assistant PGD](https://www.youtube.com/watch?v=zjGlf8zLY-s)
 - Développement de politiques claires sur la gestion des données
+  - Promotion de la culture de partage ouvert des données
 - Adoption de standards communs (métadonnées, formats)
-- Promotion de la culture de partage ouvert des données
 
 :::
 
 # Ouvertures vers le futur (2/3)
 
-[Collaboration, innovation et le partage d'expertise]{.underline}
+[Développement des compétences et partage des expertises]{.underline}
 
 ::: {.incremental}
 
 - Ateliers, webinaires pour les chercheurs, **PPRs**, étudiants
-- Développement des compétences:
   - Gestion de données, Cloud computing, AI
-- Formations aux outils de préservation numérique
-  - [GitHub](https://github.com/), [Zenodo](https://zenodo.org/), [Borealis](https://borealisdata.ca/dataverse/laval)
+  - Formations aux outils de préservation numérique
+    - [GitHub](https://github.com/), [Zenodo](https://zenodo.org/), [Borealis](https://borealisdata.ca/dataverse/laval), etc.
 
 :::
 
